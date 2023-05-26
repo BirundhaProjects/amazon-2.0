@@ -2,7 +2,7 @@ import { getSession, useSession } from 'next-auth/react'
 import React from 'react'
 import { firestore } from "../../firebase";
 import Header from '../components/Header'
-import moment from 'moment/moment';
+import moment from 'moment';
 import Order from '../components/Order';
 
 function orders({ orders }) {
